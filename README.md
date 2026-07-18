@@ -8,6 +8,8 @@ Inspired by [Shifty Hotbar](https://modrinth.com/mod/shifty-hotbar) by Kir-Antip
 for modern versions, not a fork. There are no current plans to implement additional
 functionality from Shifty Hotbar.
 
+![](https://raw.githubusercontent.com/Vicenthresh/hotbar-cycle/master/hotbar-cycle.gif)
+
 ## Behavior
 
 Hold `Left Alt` (rebindable) and scroll while playing (no screen open):
