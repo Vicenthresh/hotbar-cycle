@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "shift-scroll",
+  "version": "${version}",
+  "name": "Shift Scroll",
+  "description": "Hold a modifier key and scroll to cycle inventory rows into your hotbar, inspired by Stardew Valley.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shift-scroll/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shiftscroll.ShiftScroll"
+    ]
+  },
+  "mixins": [
+    "shift-scroll.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1",
+    "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
