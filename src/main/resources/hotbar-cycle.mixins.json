@@ -1,9 +1,10 @@
 {
   "required": true,
-  "package": "com.shiftscroll.mixin",
+  "package": "com.hotbarcycle.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "PlayerInventoryMixin"
+    "KeyBindingAccessor",
+    "MouseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

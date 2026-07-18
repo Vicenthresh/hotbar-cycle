@@ -9,4 +9,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "shift-scroll"
+rootProject.name = "hotbar-cycle"

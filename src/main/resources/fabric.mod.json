@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "shift-scroll",
+  "id": "hotbar-cycle",
   "version": "${version}",
-  "name": "Shift Scroll",
+  "name": "Hotbar Cycle",
   "description": "Hold a modifier key and scroll to cycle inventory rows into your hotbar, inspired by Stardew Valley.",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/shift-scroll/icon.png",
+  "icon": "assets/hotbar-cycle/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.shiftscroll.ShiftScroll"
+      "com.hotbarcycle.HotbarCycle"
     ]
   },
   "mixins": [
-    "shift-scroll.mixins.json"
+    "hotbar-cycle.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.0",
