@@ -3,6 +3,11 @@
 A Fabric client-side mod that lets you cycle inventory rows into your hotbar
 using a modifier key + scroll, inspired by Stardew Valley's hotbar system.
 
+Inspired by [Shifty Hotbar](https://modrinth.com/mod/shifty-hotbar) by Kir-Antipov
+(abandoned since 2023, last available for 1.20.4) — this is a focused hotbar swap mod
+for modern versions, not a fork. There are no current plans to implement additional
+functionality from Shifty Hotbar.
+
 ## Behavior
 
 Hold `Left Alt` (rebindable) and scroll while playing (no screen open):
@@ -59,3 +64,14 @@ Hold Alt + scroll
 ```
 
 Output: `build/libs/hotbar-cycle-1.0.0.jar`
+
+## Contributing
+
+Pull requests for newer Minecraft versions are welcome.
+
+1. Branch off `master` as `mc-<version>` (e.g., `mc-26.2`)
+2. Update `minecraft_version` and `yarn_mappings` in `gradle.properties`
+3. Fix any compile errors, rebuild with `./gradlew build`
+4. Open a PR back to the repo
+
+Licensed under MIT — forks and ports are explicitly allowed.
