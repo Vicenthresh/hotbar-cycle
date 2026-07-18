@@ -1,7 +1,7 @@
 # Hotbar Cycle
 
 A Fabric client-side mod that lets you cycle inventory rows into your hotbar
-using a modifier key + scroll, inspired by Stardew Valley's hotbar system.
+using a modifier key + scroll.
 
 Inspired by [Shifty Hotbar](https://modrinth.com/mod/shifty-hotbar) by Kir-Antipov
 (abandoned since 2023, last available for 1.20.4) — this is a focused hotbar swap mod
